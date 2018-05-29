@@ -26,14 +26,14 @@ $(function()
 
   $(".fade-clickable").click(function()
   {
-    $(".fade-show").fadeIn();
-    $(".fade-hide").fadeOut();
+    $(".fade-show").fadeToggle();
+    $(".fade-hide").fadeToggle();
   });
 
   $(".slide-clickable").click(function()
   {
-    $(".slide-show").slideDown();
-    $(".slide-hide").slideUp();
+    $(".slide-show").slideToggle();
+    $(".slide-hide").slideToggle();
   });
 
 });
