@@ -2,17 +2,26 @@ $(function()
 {
   $("h1").click(function()
   {
-    alert("Hi");
+    //alert("Hi");
   });
 
   $("p").click(function()
   {
-    alert("Hereafter");
+    //alert("Hereafter");
+    //$("img").show();
+    //$(".walrus-showing").toggle();
+    //$(".walrus-hidden").toggle();
   });
 
   $("img").click(function()
   {
-    alert("Hi");
+    //alert("Hi");
+  });
+
+  $(".clickable").click(function()
+  {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
   });
 
 });

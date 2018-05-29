@@ -1,0 +1,21 @@
+body {
+  background-color: lightcyan;
+}
+
+img {
+  height: auto;
+  width: 160px;
+}
+
+.walrus-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
