@@ -1,5 +1,5 @@
 body {
-  background-color: lightcyan;
+  font-size: 1.5em;
 }
 
 img {
@@ -36,4 +36,25 @@ img {
 
 .hover-underline:hover {
   text-decoration: underline;
+}
+
+.cyan-background {
+  background-color: lightcyan;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.back-color-cyan {
+  background-color: cyan;
+  color: white;
 }
