@@ -11,11 +11,29 @@ img {
   display: none;
 }
 
+.fade-show {
+  display: none;
+}
+
+.slide-show {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.fade-clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slide-clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.hover-underline:hover {
   text-decoration: underline;
 }

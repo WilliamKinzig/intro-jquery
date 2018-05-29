@@ -24,4 +24,16 @@ $(function()
     $("#walrus-hidden").toggle();
   });
 
+  $(".fade-clickable").click(function()
+  {
+    $(".fade-show").fadeIn();
+    $(".fade-hide").fadeOut();
+  });
+
+  $(".slide-clickable").click(function()
+  {
+    $(".slide-show").slideDown();
+    $(".slide-hide").slideUp();
+  });
+
 });
